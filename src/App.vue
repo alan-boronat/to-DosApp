@@ -4,12 +4,17 @@
 <template>
   <div>
     
+      <div>
+        
+        <Header />
+    </div>
     <div id="main-container">
-      <h2>Organizador De Tareas Web <i class="fas fa-tasks"></i></h2>
+      <h2>Organizador De Tareas Web  <img src="./assets/task32.png"></h2>
       <Search v-on:query-change="querySearch" />
       <TodoAdd v-on:add-todo="addTodo" />
       <Todos v-bind:todoslist="copyTodos" v-on:delete-todo="deleteTodo" />  
     </div>
+    
   </div>
 </template>
 
@@ -18,13 +23,14 @@
 import Search from './components/Search'
 import Todos from './components/Todos'
 import TodoAdd from './components/TodoAdd'
+import Header from './components/Header'
 
 
 /* Se indican los componentes que van a renderizarse */
 export default {
   name: 'App',
   components: {
-     Todos, TodoAdd, Search
+     Todos, TodoAdd, Search, Header
     
   },
   
@@ -99,6 +105,7 @@ export default {
   background-color:#736EFE ;
 
   }
+  
 
   #main-container{
     border: solid 1px #ccc;
@@ -106,16 +113,12 @@ export default {
     margin: 100px auto;
   }
 
-  #header{
-    width: 100%;
-    background: black;
-    padding: 10px;
-    margin: auto;
-  }
-
+  
   h2{
     text-align: center;
     color: white;
   }
+
+  
 </style>
 
