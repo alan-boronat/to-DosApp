@@ -3,7 +3,7 @@
 <template>
     <div id="add-container">
         <form @submit="addTodo">
-            <input type="text" v-model="title" placeholder="Ingrese Una Nueva Tarea Y Presione Enter Para Guardarla" required>
+            <input type="text" v-model="title" placeholder="Ingrese una nueva tarea y presione enter para guardarla" required>
         </form>
     </div>
 </template>

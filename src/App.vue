@@ -102,7 +102,7 @@ export default {
     margin: 0;
     height: 100vh;
 
-  background-color:#736EFE ;
+  background-color:#15B2D3 ;
 
   }
   

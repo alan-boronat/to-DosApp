@@ -36,7 +36,7 @@ export default {
     }
 
     .todo:not(.completed):hover{
-        background-color:#4C83FF;
+        background-color:#236E96;
         
     }
 

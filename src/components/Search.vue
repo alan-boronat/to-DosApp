@@ -2,7 +2,7 @@
 
 <template>
     <div id="search-container">
-        <input type="text" v-model="query" v-on:input="$emit('query-change', query)" placeholder="Puede Buscar Sus Tareas Aqui">
+        <input type="text" v-model="query" v-on:input="$emit('query-change', query)" placeholder="Puede buscar sus tareas aqui">
     </div>
 </template>
 
