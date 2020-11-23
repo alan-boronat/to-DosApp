@@ -1,3 +1,5 @@
+<!-- Componente creado para renderizar la cabecera del de la página -->
+
 <template>
     <div class="navbar">
         <a href="#">to-DosApp</a>    
@@ -5,16 +7,16 @@
 </template>
 
 <style scoped>
-/* The navigation bar */
+
 .navbar {
   overflow: hidden;
   background-color: #333;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
 }
 
-/* Links inside the navbar */
+
 .navbar a {
   float: center;
   display: block;
@@ -24,11 +26,8 @@
   text-decoration: none;
 }
 
-
-
-/* Main content */
 .main {
-  margin-top: 30px; /* Add a top margin to avoid content overlay */
+  margin-top: 30px; 
 }
 
 
